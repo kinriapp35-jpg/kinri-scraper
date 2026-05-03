@@ -1,0 +1,325 @@
+{
+  "banks": [
+    {
+      "id": "rakuten",
+      "name": "楽天銀行",
+      "url": "https://www.rakuten-bank.co.jp/interest/details.html",
+      "category": "ネット銀行",
+      "terms": {
+        "マネーブリッジ": {
+          "description": "楽天証券口座との連携で普通預金金利が優遇される制度",
+          "is_conditional": true,
+          "condition": "楽天証券口座との連携（自動入出金設定）"
+        },
+        "通常金利": {
+          "description": "条件なしの普通預金金利",
+          "is_conditional": false,
+          "condition": null
+        }
+      }
+    },
+    {
+      "id": "sbi_shinsei",
+      "name": "SBI新生銀行",
+      "url": "https://www.sbishinseibank.co.jp/retail/yen/futsu/",
+      "category": "ネット銀行",
+      "terms": {
+        "SBIハイパー預金": {
+          "description": "SBI証券口座と連携することで普通預金金利が優遇される預金",
+          "is_conditional": true,
+          "condition": "SBI証券口座との連携"
+        },
+        "ダイヤモンドステージ": {
+          "description": "ステップアッププログラムの最上位ランク",
+          "is_conditional": true,
+          "condition": "所定の取引条件達成"
+        },
+        "スタートアップ円定期預金": {
+          "description": "新規口座開設者向けの優遇定期預金",
+          "is_conditional": true,
+          "condition": "口座開設から3ヶ月以内"
+        }
+      }
+    },
+    {
+      "id": "sumishin_sbi",
+      "name": "住信SBIネット銀行",
+      "url": "https://www.netbk.co.jp/contents/kinri-yenfutsu/",
+      "category": "ネット銀行",
+      "terms": {
+        "SBIハイブリッド預金": {
+          "description": "SBI証券口座と連携し、買付余力に自動反映される預金。金利が通常より優遇",
+          "is_conditional": true,
+          "condition": "SBI証券口座との連携"
+        },
+        "スマートプログラム": {
+          "description": "取引状況に応じてランク1〜4が付与され、ATM・振込手数料の無料回数が変動",
+          "is_conditional": true,
+          "condition": "各ランクの条件達成"
+        }
+      }
+    },
+    {
+      "id": "aozora",
+      "name": "あおぞら銀行BANK支店",
+      "url": "https://www.aozorabank.co.jp/bank/kinri/",
+      "category": "ネット銀行",
+      "terms": {
+        "BANK支店": {
+          "description": "あおぞら銀行のインターネット専用支店。店舗型より金利が高い",
+          "is_conditional": false,
+          "condition": null
+        },
+        "100万円上限": {
+          "description": "100万円までは最高金利、超過分は低い金利が適用",
+          "is_conditional": true,
+          "condition": "預金残高100万円以下"
+        }
+      }
+    },
+    {
+      "id": "aeon",
+      "name": "イオン銀行",
+      "url": "https://www.aeonbank.co.jp/interest_rate/ordinary_deposit/",
+      "category": "ネット銀行",
+      "terms": {
+        "Myステージ": {
+          "description": "取引状況に応じてブロンズ〜プラチナのステージが付与され、金利が段階的に優遇",
+          "is_conditional": true,
+          "condition": "イオン銀行スコア(取引実績)に応じたステージ"
+        },
+        "プラチナステージ": {
+          "description": "Myステージの最上位。最も高い普通預金金利が適用",
+          "is_conditional": true,
+          "condition": "イオン銀行スコア150点以上"
+        }
+      }
+    },
+    {
+      "id": "ui_bank",
+      "name": "UI銀行",
+      "url": "https://www.uibank.co.jp/interest_rate/",
+      "category": "ネット銀行",
+      "terms": {
+        "UIプレミアム": {
+          "description": "きらぼし銀行口座連携で優遇される預金",
+          "is_conditional": true,
+          "condition": "きらぼし銀行口座との連携"
+        }
+      }
+    },
+    {
+      "id": "tokyo_star",
+      "name": "東京スター銀行",
+      "url": "https://www.tokyostarbank.co.jp/products/deposit/ordinary/",
+      "category": "ネット銀行",
+      "terms": {
+        "スターワン口座": {
+          "description": "給与振込指定等の条件で普通預金金利が優遇",
+          "is_conditional": true,
+          "condition": "給与振込or年金受取指定、または資産運用300万円以上+NISA"
+        }
+      }
+    },
+    {
+      "id": "au_jibun",
+      "name": "auじぶん銀行",
+      "url": "https://www.jibunbank.co.jp/interest_rate/",
+      "category": "ネット銀行",
+      "terms": {
+        "auマネーコネクト": {
+          "description": "au PAYアプリまたはauカブコム証券との連携で金利優遇",
+          "is_conditional": true,
+          "condition": "au PAYアプリ連携 or auカブコム証券口座連携"
+        },
+        "じぶんプラス": {
+          "description": "取引条件に応じたステージ制で各種優遇",
+          "is_conditional": true,
+          "condition": "取引状況に応じたステージ"
+        }
+      }
+    },
+    {
+      "id": "paypay",
+      "name": "PayPay銀行",
+      "url": "https://www.paypay-bank.co.jp/interest/index.html",
+      "category": "ネット銀行",
+      "terms": {
+        "通常金利": {
+          "description": "条件なしの普通預金金利",
+          "is_conditional": false,
+          "condition": null
+        }
+      }
+    },
+    {
+      "id": "sony",
+      "name": "ソニー銀行",
+      "url": "https://moneykit.net/visitor/rate/",
+      "category": "ネット銀行",
+      "terms": {
+        "Club S": {
+          "description": "外貨預金残高等に応じたステージ制。振込手数料等の優遇あり",
+          "is_conditional": true,
+          "condition": "総残高・外貨預金残高に応じたランク"
+        }
+      }
+    },
+    {
+      "id": "sbi_sumishin",
+      "name": "SBI証券×住信SBI（ハイブリッド）",
+      "url": "https://www.netbk.co.jp/contents/lineup/yen/hybrid/",
+      "category": "証券連携",
+      "terms": {
+        "ハイブリッド預金": {
+          "description": "SBI証券の買付余力に自動連携される預金口座",
+          "is_conditional": true,
+          "condition": "SBI証券口座保有"
+        }
+      }
+    },
+    {
+      "id": "mufg",
+      "name": "三菱UFJ銀行",
+      "url": "https://www.bk.mufg.jp/tameru/yen/kinri/yokin_kinri.html",
+      "category": "メガバンク",
+      "terms": {
+        "通常金利": {
+          "description": "条件なしの普通預金金利",
+          "is_conditional": false,
+          "condition": null
+        }
+      }
+    },
+    {
+      "id": "smbc",
+      "name": "三井住友銀行",
+      "url": "https://www.smbc.co.jp/kojin/kinri/yokin.html",
+      "category": "メガバンク",
+      "terms": {
+        "通常金利": {
+          "description": "条件なしの普通預金金利",
+          "is_conditional": false,
+          "condition": null
+        },
+        "Olive": {
+          "description": "Oliveフレキシブルペイ連携による優遇",
+          "is_conditional": true,
+          "condition": "Oliveアカウント契約"
+        }
+      }
+    },
+    {
+      "id": "mizuho",
+      "name": "みずほ銀行",
+      "url": "https://www.mizuhobank.co.jp/rate/kinri_yokin.html",
+      "category": "メガバンク",
+      "terms": {
+        "通常金利": {
+          "description": "条件なしの普通預金金利",
+          "is_conditional": false,
+          "condition": null
+        }
+      }
+    },
+    {
+      "id": "resona",
+      "name": "りそな銀行",
+      "url": "https://www.resonabank.co.jp/kojin/kinri/yokin_kinri.html",
+      "category": "メガバンク",
+      "terms": {
+        "通常金利": {
+          "description": "条件なしの普通預金金利",
+          "is_conditional": false,
+          "condition": null
+        }
+      }
+    },
+    {
+      "id": "yucho",
+      "name": "ゆうちょ銀行",
+      "url": "https://www.jp-bank.japanpost.jp/kinri/kinri.html",
+      "category": "ゆうちょ",
+      "terms": {
+        "通常貯金": {
+          "description": "ゆうちょ銀行の普通預金相当。正式名称は「通常貯金」",
+          "is_conditional": false,
+          "condition": null
+        }
+      }
+    },
+    {
+      "id": "sbi_sec_rakuten",
+      "name": "楽天証券×楽天銀行",
+      "url": "https://www.rakuten-bank.co.jp/interest/details.html",
+      "category": "証券連携",
+      "terms": {
+        "マネーブリッジ（300万円以下）": {
+          "description": "残高300万円以下の部分に適用される優遇金利",
+          "is_conditional": true,
+          "condition": "楽天証券口座連携 + 残高300万円以下"
+        },
+        "マネーブリッジ（300万円超）": {
+          "description": "残高300万円超の部分に適用される金利（300万円以下より低い）",
+          "is_conditional": true,
+          "condition": "楽天証券口座連携 + 残高300万円超"
+        }
+      }
+    },
+    {
+      "id": "gmo_aozora",
+      "name": "GMOあおぞらネット銀行",
+      "url": "https://gmo-aozora.com/interest/",
+      "category": "ネット銀行",
+      "terms": {
+        "証券コネクト口座": {
+          "description": "GMOクリック証券との連携で金利が優遇される",
+          "is_conditional": true,
+          "condition": "GMOクリック証券口座との連携"
+        },
+        "通常金利": {
+          "description": "条件なしの普通預金金利",
+          "is_conditional": false,
+          "condition": null
+        }
+      }
+    },
+    {
+      "id": "orix",
+      "name": "オリックス銀行",
+      "url": "https://www.orixbank.co.jp/personal/deposit/interest.html",
+      "category": "ネット銀行",
+      "terms": {
+        "eダイレクト普通預金": {
+          "description": "インターネット専用の普通預金",
+          "is_conditional": false,
+          "condition": null
+        }
+      }
+    },
+    {
+      "id": "daiwa_next",
+      "name": "大和ネクスト銀行",
+      "url": "https://www.bank-daiwa.co.jp/rate/",
+      "category": "ネット銀行",
+      "terms": {
+        "通常金利": {
+          "description": "条件なしの普通預金金利",
+          "is_conditional": false,
+          "condition": null
+        },
+        "スイープサービス": {
+          "description": "大和証券口座との自動入出金連携",
+          "is_conditional": true,
+          "condition": "大和証券口座との連携"
+        }
+      }
+    }
+  ],
+  "scraping_notes": {
+    "compliance": "各銀行サイトの利用規約に準拠。robots.txtを尊重し、過度なアクセス頻度を避ける（1日1回、各サイト間に5秒以上のインターバル）。公開されている金利情報ページのみを対象とし、ログイン必須ページへのアクセスは行わない。",
+    "user_agent": "KinriRankingBot/1.0 (+https://kinriapp35-jpg.github.io/kinriranking/)",
+    "request_interval_seconds": 5,
+    "schedule": "daily at 06:00 JST"
+  }
+}
