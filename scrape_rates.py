@@ -128,50 +128,57 @@ async def fetch_page(url: str, bank_id: str) -> str:
 
 
 def html_to_markdown(html: str, bank_name: str) -> str:
-    """HTML -> Markdown。金利テーブルを優先抽出"""
+    """HTML -> Markdown。金利情報を確実に抽出"""
     soup = BeautifulSoup(html, "html.parser")
     for tag in soup.find_all(["script", "style", "nav", "footer", "header", "noscript", "iframe", "svg"]):
         tag.decompose()
-
-    # テーブルを優先的に抽出（金利は大抵テーブルにある）
-    tables = soup.find_all("table")
-    rate_tables = []
-    for table in tables:
-        text = table.get_text()
-        if any(kw in text for kw in ["金利", "利率", "%", "年率", "普通預金"]):
-            rate_tables.append(str(table))
 
     converter = html2text.HTML2Text()
     converter.ignore_links = True
     converter.ignore_images = True
     converter.body_width = 0
 
-    # テーブルがあればテーブル優先
-    if rate_tables:
-        table_md = converter.handle("\n".join(rate_tables[:3]))
-        if len(table_md) > 100:
-            return table_md[:4000]
+    # Strategy 1: 金利テーブルを探す
+    tables = soup.find_all("table")
+    rate_tables = []
+    for table in tables:
+        text = table.get_text()
+        if any(kw in text for kw in ["金利", "利率", "%", "年率", "普通預金", "普通", "利息"]):
+            rate_tables.append(str(table))
 
-    # テーブルがなければ全体からキーワード周辺を抽出
+    if rate_tables:
+        table_md = converter.handle("\n".join(rate_tables[:5]))
+        if len(table_md) > 100:
+            return (f"[銀行名: {bank_name}]\n" + table_md)[:5000]
+
+    # Strategy 2: 数字+%パターンを含む行とその周辺を抽出
     full_md = converter.handle(str(soup))
-    if len(full_md) > 5000:
-        lines = full_md.split("\n")
-        relevant = []
-        keywords = ["金利", "利率", "%", "年率", "普通預金", "優遇", "ステージ", "連携", "ハイブリッド", "マネーブリッジ", "コネクト"]
-        for i, line in enumerate(lines):
-            if any(kw in line for kw in keywords):
-                start = max(0, i - 5)
-                end = min(len(lines), i + 10)
-                relevant.extend(lines[start:end])
+    lines = full_md.split("\n")
+    relevant = []
+    keywords = ["金利", "利率", "%", "年率", "普通預金", "優遇", "ステージ", "連携",
+                "ハイブリッド", "マネーブリッジ", "コネクト", "0.", "利息", "適用"]
+
+    for i, line in enumerate(lines):
+        # 数字+%パターン or キーワードマッチ
+        has_rate = bool(re.search(r"\d+\.\d+\s*%", line))
+        has_keyword = any(kw in line for kw in keywords)
+        if has_rate or has_keyword:
+            start = max(0, i - 3)
+            end = min(len(lines), i + 5)
+            relevant.extend(lines[start:end])
+
+    if relevant:
         seen = set()
         deduped = []
         for line in relevant:
-            if line not in seen:
+            if line.strip() and line not in seen:
                 seen.add(line)
                 deduped.append(line)
-        full_md = "\n".join(deduped)
+        result = "\n".join(deduped)
+        return (f"[銀行名: {bank_name}]\n" + result)[:5000]
 
-    return full_md[:4000]
+    # Strategy 3: 全文を短縮して渡す（最終手段）
+    return (f"[銀行名: {bank_name}]\n" + full_md)[:5000]
 
 
 def build_llm_prompt(markdown: str, bank_config: dict) -> str:
@@ -188,7 +195,9 @@ def build_llm_prompt(markdown: str, bank_config: dict) -> str:
 - 定期預金は除外
 - 条件付きは条件を明記
 - 年率(%)で統一
-- データが見つからない場合は rates: [] で返す
+- 数字と%が含まれていれば必ず抽出を試みる
+- 普通預金以外の表記（通常貯金、円普通預金、決済用預金等）も対象
+- rates: [] は本当にどこにも数字がない場合のみ。0.3%等の数字があれば必ず抽出する
 
 ## 出力（JSONのみ）:
 ```json
