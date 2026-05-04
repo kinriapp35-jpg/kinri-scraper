@@ -21,7 +21,7 @@
     {
       "id": "sbi_shinsei",
       "name": "SBI新生銀行",
-      "url": "https://www.sbishinseibank.co.jp/retail/yen/futsu/",
+      "url": "https://www.sbishinseibank.co.jp/rate/deposit.html",
       "category": "ネット銀行",
       "terms": {
         "SBIハイパー預金": {
@@ -80,7 +80,7 @@
     {
       "id": "aeon",
       "name": "イオン銀行",
-      "url": "https://www.aeonbank.co.jp/interest_rate/ordinary_deposit/",
+      "url": "https://www.aeonbank.co.jp/interest/deposit/",
       "category": "ネット銀行",
       "terms": {
         "Myステージ": {
@@ -98,7 +98,7 @@
     {
       "id": "ui_bank",
       "name": "UI銀行",
-      "url": "https://www.uibank.co.jp/interest_rate/",
+      "url": "https://www.uibank.co.jp/rate/",
       "category": "ネット銀行",
       "terms": {
         "UIプレミアム": {
@@ -111,7 +111,7 @@
     {
       "id": "tokyo_star",
       "name": "東京スター銀行",
-      "url": "https://www.tokyostarbank.co.jp/products/deposit/ordinary/",
+      "url": "https://www.tokyostarbank.co.jp/rate/",
       "category": "ネット銀行",
       "terms": {
         "スターワン口座": {
@@ -124,7 +124,7 @@
     {
       "id": "au_jibun",
       "name": "auじぶん銀行",
-      "url": "https://www.jibunbank.co.jp/interest_rate/",
+      "url": "https://www.jibunbank.co.jp/interest_rate/deposit/",
       "category": "ネット銀行",
       "terms": {
         "auマネーコネクト": {
@@ -181,7 +181,7 @@
     {
       "id": "mufg",
       "name": "三菱UFJ銀行",
-      "url": "https://www.bk.mufg.jp/tameru/yen/kinri/yokin_kinri.html",
+      "url": "https://www.bk.mufg.jp/ippan/kinri/yen_yokin.html",
       "category": "メガバンク",
       "terms": {
         "通常金利": {
@@ -212,7 +212,7 @@
     {
       "id": "mizuho",
       "name": "みずほ銀行",
-      "url": "https://www.mizuhobank.co.jp/rate/kinri_yokin.html",
+      "url": "https://www.mizuhobank.co.jp/retail/kinri/index.html",
       "category": "メガバンク",
       "terms": {
         "通常金利": {
@@ -225,7 +225,7 @@
     {
       "id": "resona",
       "name": "りそな銀行",
-      "url": "https://www.resonabank.co.jp/kojin/kinri/yokin_kinri.html",
+      "url": "https://www.resonabank.co.jp/kinri/",
       "category": "メガバンク",
       "terms": {
         "通常金利": {
@@ -269,7 +269,7 @@
     {
       "id": "gmo_aozora",
       "name": "GMOあおぞらネット銀行",
-      "url": "https://gmo-aozora.com/interest/",
+      "url": "https://gmo-aozora.com/interest/deposit/",
       "category": "ネット銀行",
       "terms": {
         "証券コネクト口座": {
@@ -287,7 +287,7 @@
     {
       "id": "orix",
       "name": "オリックス銀行",
-      "url": "https://www.orixbank.co.jp/personal/deposit/interest.html",
+      "url": "https://www.orixbank.co.jp/personal/saving/interest.html",
       "category": "ネット銀行",
       "terms": {
         "eダイレクト普通預金": {
