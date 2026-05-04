@@ -1,0 +1,175 @@
+[
+  {
+    "bank_id": "sumishin_sbi",
+    "bank_name": "住信SBIネット銀行",
+    "category": "ネット銀行",
+    "rates": [
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "普通預金",
+        "condition": null,
+        "condition_name": null,
+        "limit_amount": "100万円未満",
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "普通預金",
+        "condition": null,
+        "condition_name": null,
+        "limit_amount": "100万円以上",
+        "note": null
+      }
+    ]
+  },
+  {
+    "bank_id": "aozora",
+    "bank_name": "あおぞら銀行BANK支店",
+    "category": "ネット銀行",
+    "rates": [
+      {
+        "type": "通常",
+        "rate_percent": 0.75,
+        "product_name": "普通預金",
+        "condition": "預金残高100万円以下",
+        "condition_name": "100万円上限",
+        "limit_amount": "100万円以下",
+        "note": "変動金利です。"
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.5,
+        "product_name": "普通預金",
+        "condition": "預金残高100万円超",
+        "condition_name": null,
+        "limit_amount": "100万円超",
+        "note": "変動金利です。"
+      }
+    ]
+  },
+  {
+    "bank_id": "paypay",
+    "bank_name": "PayPay銀行",
+    "category": "ネット銀行",
+    "rates": [
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "普通預金",
+        "condition": null,
+        "condition_name": null,
+        "limit_amount": null,
+        "note": "補足"
+      }
+    ]
+  },
+  {
+    "bank_id": "sony",
+    "bank_name": "ソニー銀行",
+    "category": "ネット銀行",
+    "rates": [
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "普通預金",
+        "condition": null,
+        "condition_name": null,
+        "limit_amount": null,
+        "note": null
+      }
+    ]
+  },
+  {
+    "bank_id": "sbi_sumishin",
+    "bank_name": "SBI証券×住信SBI（ハイブリッド）",
+    "category": "証券連携",
+    "rates": [
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "普通預金",
+        "condition": "SBI証券口座保有",
+        "condition_name": "ハイブリッド預金",
+        "limit_amount": null,
+        "note": "普通預金よりも好金利"
+      }
+    ]
+  },
+  {
+    "bank_id": "smbc",
+    "bank_name": "三井住友銀行",
+    "category": "メガバンク",
+    "rates": [
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "普通預金",
+        "condition": null,
+        "condition_name": null,
+        "limit_amount": null,
+        "note": "税引前の年利率です。"
+      },
+      {
+        "type": "優遇",
+        "rate_percent": 0.3,
+        "product_name": "残高別金利型普通預金",
+        "condition": "SMBCポイントパックまたはOliveアカウントのご契約が必要",
+        "condition_name": "Olive",
+        "limit_amount": "1,000万円以上, 30万円以上, 30万円未満",
+        "note": "税引前の年利率です。"
+      }
+    ]
+  },
+  {
+    "bank_id": "yucho",
+    "bank_name": "ゆうちょ銀行",
+    "category": "ゆうちょ",
+    "rates": [
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "普通預金",
+        "condition": null,
+        "condition_name": null,
+        "limit_amount": null,
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "通常貯蓄貯金",
+        "condition": "10万円未満",
+        "condition_name": "残高条件",
+        "limit_amount": "10万円未満",
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "通常貯蓄貯金",
+        "condition": "10万円以上",
+        "condition_name": "残高条件",
+        "limit_amount": "10万円以上",
+        "note": null
+      }
+    ]
+  },
+  {
+    "bank_id": "daiwa_next",
+    "bank_name": "大和ネクスト銀行",
+    "category": "ネット銀行",
+    "rates": [
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "普通預金",
+        "condition": null,
+        "condition_name": null,
+        "limit_amount": null,
+        "note": "2026年05月04日現在"
+      }
+    ]
+  }
+]
