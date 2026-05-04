@@ -2,8 +2,8 @@ name: Daily Rate Scraper
 
 on:
   schedule:
-    - cron: '0 21 * * *'  # UTC 21:00 = JST 06:00
-  workflow_dispatch:  # 手動実行も可能
+    - cron: '0 21 * * *'
+  workflow_dispatch:
 
 jobs:
   scrape:
@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r scraper/requirements.txt
+          pip install -r requirements.txt
           playwright install chromium
           playwright install-deps
 
@@ -30,12 +30,12 @@ jobs:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           WORKER_URL: ${{ secrets.WORKER_URL }}
-        run: python scraper/scrape_rates.py
+        run: python scrape_rates.py
 
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add scraper/extracted_rates.json
+          git add extracted_rates.json
           git diff --cached --quiet || git commit -m "Update rates $(date +%Y-%m-%d)"
           git push
