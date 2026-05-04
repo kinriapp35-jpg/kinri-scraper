@@ -36,7 +36,7 @@
         "rate_percent": 0.32,
         "product_name": "普通預金",
         "condition": "楽天カードのカード利用金額の引落があるお客さま",
-        "condition_name": "楽天カード",
+        "condition_name": "楽天カード利用",
         "limit_amount": null,
         "note": null
       }
@@ -58,7 +58,7 @@
       },
       {
         "type": "通常",
-        "rate_percent": 0.7,
+        "rate_percent": 0.9,
         "product_name": "普通預金",
         "condition": "預金残高100万円以下",
         "condition_name": "100万円上限",
@@ -67,11 +67,45 @@
       },
       {
         "type": "通常",
-        "rate_percent": 0.7,
+        "rate_percent": 1.0,
         "product_name": "普通預金",
         "condition": "預金残高100万円以下",
         "condition_name": "100万円上限",
         "limit_amount": "1,000万円以上",
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 1.1,
+        "product_name": "普通預金",
+        "condition": null,
+        "condition_name": null,
+        "limit_amount": null,
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 1.3,
+        "product_name": "普通預金",
+        "condition": null,
+        "condition_name": null,
+        "limit_amount": null,
+        "note": null
+      }
+    ]
+  },
+  {
+    "bank_id": "aeon",
+    "bank_name": "イオン銀行",
+    "category": "ネット銀行",
+    "rates": [
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "普通預金",
+        "condition": null,
+        "condition_name": null,
+        "limit_amount": null,
         "note": null
       }
     ]
@@ -88,6 +122,76 @@
         "condition": null,
         "condition_name": null,
         "limit_amount": null,
+        "note": null
+      }
+    ]
+  },
+  {
+    "bank_id": "mufg",
+    "bank_name": "三菱UFJ銀行",
+    "category": "メガバンク",
+    "rates": [
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "普通預金",
+        "condition": "条件あり",
+        "condition_name": "残高条件",
+        "limit_amount": "10万円未満",
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "普通預金",
+        "condition": "条件あり",
+        "condition_name": "残高条件",
+        "limit_amount": "10万円以上",
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "普通預金",
+        "condition": "条件あり",
+        "condition_name": "残高条件",
+        "limit_amount": "30万円以上",
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "普通預金",
+        "condition": "条件あり",
+        "condition_name": "残高条件",
+        "limit_amount": "50万円以上",
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "普通預金",
+        "condition": "条件あり",
+        "condition_name": "残高条件",
+        "limit_amount": "100万円以上",
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "普通預金",
+        "condition": "条件あり",
+        "condition_name": "残高条件",
+        "limit_amount": "300万円以上",
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "普通預金",
+        "condition": "条件あり",
+        "condition_name": "残高条件",
+        "limit_amount": "1,000万円以上",
         "note": null
       }
     ]
