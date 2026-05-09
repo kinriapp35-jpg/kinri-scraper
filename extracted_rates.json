@@ -63,7 +63,7 @@
         "condition": "条件",
         "condition_name": "SBI証券口座との連携",
         "limit_amount": null,
-        "note": null
+        "note": "金利が通常より優遇"
       }
     ]
   },
@@ -78,7 +78,7 @@
         "product_name": "普通預金",
         "condition": "預金残高100万円以下",
         "condition_name": "100万円上限",
-        "limit_amount": "100万円以下",
+        "limit_amount": "100万円",
         "note": null
       },
       {
@@ -87,7 +87,7 @@
         "product_name": "普通預金",
         "condition": "預金残高100万円超",
         "condition_name": null,
-        "limit_amount": "100万円超",
+        "limit_amount": null,
         "note": null
       },
       {
@@ -96,25 +96,43 @@
         "product_name": "普通預金",
         "condition": null,
         "condition_name": null,
-        "limit_amount": "50万円以上300万円未満",
+        "limit_amount": null,
         "note": null
       },
       {
         "type": "通常",
-        "rate_percent": 0.7,
+        "rate_percent": 0.9,
         "product_name": "普通預金",
         "condition": null,
         "condition_name": null,
-        "limit_amount": "300万円以上1,000万円未満",
+        "limit_amount": null,
         "note": null
       },
       {
         "type": "通常",
-        "rate_percent": 0.7,
+        "rate_percent": 1.0,
         "product_name": "普通預金",
         "condition": null,
         "condition_name": null,
-        "limit_amount": "1,000万円以上",
+        "limit_amount": null,
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 1.1,
+        "product_name": "普通預金",
+        "condition": null,
+        "condition_name": null,
+        "limit_amount": null,
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 1.3,
+        "product_name": "普通預金",
+        "condition": null,
+        "condition_name": null,
+        "limit_amount": null,
         "note": null
       }
     ]
@@ -144,8 +162,8 @@
         "type": "通常",
         "rate_percent": 0.3,
         "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
+        "condition": "条件",
+        "condition_name": "SBI証券口座保有",
         "limit_amount": null,
         "note": null
       }
