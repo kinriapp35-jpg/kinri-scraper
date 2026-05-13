@@ -27,7 +27,7 @@
         "rate_percent": 0.32,
         "product_name": "普通預金",
         "condition": "楽天カードのカード利用金額の引落があるお客さま",
-        "condition_name": "楽天カード",
+        "condition_name": "楽天カード利用",
         "limit_amount": null,
         "note": null
       }
@@ -44,8 +44,26 @@
         "product_name": "円普通預金",
         "condition": null,
         "condition_name": null,
-        "limit_amount": null,
+        "limit_amount": "100万円未満",
         "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "円普通預金",
+        "condition": null,
+        "condition_name": null,
+        "limit_amount": "100万円以上",
+        "note": null
+      },
+      {
+        "type": "優遇",
+        "rate_percent": 0.31,
+        "product_name": "SBIハイブリッド預金",
+        "condition": "条件",
+        "condition_name": "SBI証券口座との連携",
+        "limit_amount": null,
+        "note": "金利が通常より優遇"
       }
     ]
   },
