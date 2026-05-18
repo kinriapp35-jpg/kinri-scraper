@@ -78,7 +78,7 @@
         "product_name": "普通預金",
         "condition": "預金残高100万円以下",
         "condition_name": "100万円上限",
-        "limit_amount": "100万円以下",
+        "limit_amount": "100万円",
         "note": null
       },
       {
@@ -87,7 +87,7 @@
         "product_name": "普通預金",
         "condition": "預金残高100万円超",
         "condition_name": null,
-        "limit_amount": "100万円超",
+        "limit_amount": null,
         "note": null
       },
       {
@@ -96,25 +96,43 @@
         "product_name": "普通預金",
         "condition": null,
         "condition_name": null,
-        "limit_amount": "50万円以上300万円未満",
+        "limit_amount": null,
         "note": null
       },
       {
         "type": "通常",
-        "rate_percent": 0.7,
+        "rate_percent": 0.9,
         "product_name": "普通預金",
         "condition": null,
         "condition_name": null,
-        "limit_amount": "300万円以上1,000万円未満",
+        "limit_amount": null,
         "note": null
       },
       {
         "type": "通常",
-        "rate_percent": 0.7,
+        "rate_percent": 1.0,
         "product_name": "普通預金",
         "condition": null,
         "condition_name": null,
-        "limit_amount": "1,000万円以上",
+        "limit_amount": null,
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 1.1,
+        "product_name": "普通預金",
+        "condition": null,
+        "condition_name": null,
+        "limit_amount": null,
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 1.3,
+        "product_name": "普通預金",
+        "condition": null,
+        "condition_name": null,
+        "limit_amount": null,
         "note": null
       }
     ]
@@ -232,7 +250,7 @@
         "product_name": "残高別金利型普通預金",
         "condition": null,
         "condition_name": null,
-        "limit_amount": "30万円未満",
+        "limit_amount": "1,000万円以上",
         "note": null
       },
       {
@@ -250,7 +268,7 @@
         "product_name": "残高別金利型普通預金",
         "condition": null,
         "condition_name": null,
-        "limit_amount": "1,000万円以上",
+        "limit_amount": "30万円未満",
         "note": null
       }
     ]
@@ -282,8 +300,8 @@
         "type": "通常",
         "rate_percent": 0.31,
         "product_name": "普通預金",
-        "condition": "６月以上１年未満",
-        "condition_name": "期間",
+        "condition": "期間",
+        "condition_name": "６月以上１年未満",
         "limit_amount": null,
         "note": null
       },
@@ -291,8 +309,8 @@
         "type": "通常",
         "rate_percent": 0.34,
         "product_name": "普通預金",
-        "condition": "１年以上１年６月未満",
-        "condition_name": "期間",
+        "condition": "期間",
+        "condition_name": "１年以上１年６月未満",
         "limit_amount": null,
         "note": null
       },
@@ -300,8 +318,8 @@
         "type": "通常",
         "rate_percent": 0.37,
         "product_name": "普通預金",
-        "condition": "１年６月以上２年未満",
-        "condition_name": "期間",
+        "condition": "期間",
+        "condition_name": "１年６月以上２年未満",
         "limit_amount": null,
         "note": null
       },
@@ -309,8 +327,8 @@
         "type": "通常",
         "rate_percent": 0.41,
         "product_name": "普通預金",
-        "condition": "２年以上２年６月未満",
-        "condition_name": "期間",
+        "condition": "期間",
+        "condition_name": "２年以上２年６月未満",
         "limit_amount": null,
         "note": null
       },
@@ -318,8 +336,8 @@
         "type": "通常",
         "rate_percent": 0.45,
         "product_name": "普通預金",
-        "condition": "２年６月以上３年未満",
-        "condition_name": "期間",
+        "condition": "期間",
+        "condition_name": "２年６月以上３年未満",
         "limit_amount": null,
         "note": null
       },
@@ -327,8 +345,8 @@
         "type": "通常",
         "rate_percent": 0.51,
         "product_name": "普通預金",
-        "condition": "３年以上",
-        "condition_name": "期間",
+        "condition": "期間",
+        "condition_name": "３年以上",
         "limit_amount": null,
         "note": null
       }
