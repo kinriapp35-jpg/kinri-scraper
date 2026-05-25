@@ -44,8 +44,26 @@
         "product_name": "円普通預金",
         "condition": null,
         "condition_name": null,
-        "limit_amount": null,
+        "limit_amount": "100万円未満",
         "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "円普通預金",
+        "condition": null,
+        "condition_name": null,
+        "limit_amount": "100万円以上",
+        "note": null
+      },
+      {
+        "type": "優遇",
+        "rate_percent": 0.31,
+        "product_name": "SBIハイブリッド預金",
+        "condition": "条件",
+        "condition_name": "SBI証券口座との連携",
+        "limit_amount": null,
+        "note": "金利が通常より優遇"
       }
     ]
   },
@@ -311,6 +329,42 @@
         "product_name": "普通預金",
         "condition": "期間",
         "condition_name": "３年以上",
+        "limit_amount": null,
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.75,
+        "product_name": "普通預金",
+        "condition": "期間",
+        "condition_name": "6年（6年以上7年未満）",
+        "limit_amount": null,
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.8,
+        "product_name": "普通預金",
+        "condition": "期間",
+        "condition_name": "7年（7年以上8年未満）",
+        "limit_amount": null,
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.8,
+        "product_name": "普通預金",
+        "condition": "期間",
+        "condition_name": "8年（8年以上9年未満）",
+        "limit_amount": null,
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.8,
+        "product_name": "普通預金",
+        "condition": "期間",
+        "condition_name": "9年（9年以上10年未満）",
         "limit_amount": null,
         "note": null
       }
