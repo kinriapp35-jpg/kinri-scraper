@@ -96,25 +96,43 @@
         "product_name": "普通預金",
         "condition": null,
         "condition_name": null,
-        "limit_amount": "50万円以上300万円未満",
+        "limit_amount": null,
         "note": null
       },
       {
         "type": "通常",
-        "rate_percent": 0.7,
+        "rate_percent": 0.9,
         "product_name": "普通預金",
         "condition": null,
         "condition_name": null,
-        "limit_amount": "300万円以上1,000万円未満",
+        "limit_amount": null,
         "note": null
       },
       {
         "type": "通常",
-        "rate_percent": 0.7,
+        "rate_percent": 1.0,
         "product_name": "普通預金",
         "condition": null,
         "condition_name": null,
-        "limit_amount": "1,000万円以上",
+        "limit_amount": null,
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 1.1,
+        "product_name": "普通預金",
+        "condition": null,
+        "condition_name": null,
+        "limit_amount": null,
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 1.3,
+        "product_name": "普通預金",
+        "condition": null,
+        "condition_name": null,
+        "limit_amount": null,
         "note": null
       }
     ]
@@ -130,241 +148,6 @@
         "product_name": "普通預金",
         "condition": null,
         "condition_name": null,
-        "limit_amount": null,
-        "note": null
-      }
-    ]
-  },
-  {
-    "bank_id": "sbi_sumishin",
-    "bank_name": "SBI証券×住信SBI（ハイブリッド）",
-    "category": "証券連携",
-    "rates": [
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "普通預金",
-        "condition": "条件",
-        "condition_name": "SBI証券口座保有",
-        "limit_amount": null,
-        "note": null
-      }
-    ]
-  },
-  {
-    "bank_id": "mufg",
-    "bank_name": "三菱UFJ銀行",
-    "category": "メガバンク",
-    "rates": [
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": "10万円未満",
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": "10万円以上",
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": "30万円以上",
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": "50万円以上",
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": "100万円以上",
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": "300万円以上",
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": "1,000万円以上",
-        "note": null
-      }
-    ]
-  },
-  {
-    "bank_id": "smbc",
-    "bank_name": "三井住友銀行",
-    "category": "メガバンク",
-    "rates": [
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "残高別金利型普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": "30万円未満",
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "残高別金利型普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": "30万円以上",
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "残高別金利型普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": "1,000万円以上",
-        "note": null
-      }
-    ]
-  },
-  {
-    "bank_id": "yucho",
-    "bank_name": "ゆうちょ銀行",
-    "category": "ゆうちょ",
-    "rates": [
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": "10万円未満",
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": "10万円以上",
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.31,
-        "product_name": "普通預金",
-        "condition": "期間",
-        "condition_name": "６月以上１年未満",
-        "limit_amount": null,
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.34,
-        "product_name": "普通預金",
-        "condition": "期間",
-        "condition_name": "１年以上１年６月未満",
-        "limit_amount": null,
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.37,
-        "product_name": "普通預金",
-        "condition": "期間",
-        "condition_name": "１年６月以上２年未満",
-        "limit_amount": null,
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.41,
-        "product_name": "普通預金",
-        "condition": "期間",
-        "condition_name": "２年以上２年６月未満",
-        "limit_amount": null,
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.45,
-        "product_name": "普通預金",
-        "condition": "期間",
-        "condition_name": "２年６月以上３年未満",
-        "limit_amount": null,
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.51,
-        "product_name": "普通預金",
-        "condition": "期間",
-        "condition_name": "３年以上",
-        "limit_amount": null,
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.75,
-        "product_name": "普通預金",
-        "condition": "期間",
-        "condition_name": "6年（6年以上7年未満）",
-        "limit_amount": null,
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.8,
-        "product_name": "普通預金",
-        "condition": "期間",
-        "condition_name": "7年（7年以上8年未満）",
-        "limit_amount": null,
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.8,
-        "product_name": "普通預金",
-        "condition": "期間",
-        "condition_name": "8年（8年以上9年未満）",
-        "limit_amount": null,
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.8,
-        "product_name": "普通預金",
-        "condition": "期間",
-        "condition_name": "9年（9年以上10年未満）",
         "limit_amount": null,
         "note": null
       }
