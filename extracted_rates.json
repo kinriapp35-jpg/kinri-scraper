@@ -17,7 +17,7 @@
         "type": "優遇",
         "rate_percent": 0.38,
         "product_name": "普通預金",
-        "condition": "楽天証券口座との連携（自動入出金設定）",
+        "condition": "マネーブリッジご利用者",
         "condition_name": "マネーブリッジ",
         "limit_amount": "1円～10,000,000円",
         "note": null
@@ -27,7 +27,7 @@
         "rate_percent": 0.32,
         "product_name": "普通預金",
         "condition": "楽天カードのカード利用金額の引落があるお客さま",
-        "condition_name": null,
+        "condition_name": "楽天カード利用",
         "limit_amount": null,
         "note": null
       }
@@ -44,16 +44,7 @@
         "product_name": "円普通預金",
         "condition": null,
         "condition_name": null,
-        "limit_amount": "100万円未満",
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "円普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": "100万円以上",
+        "limit_amount": null,
         "note": null
       },
       {
@@ -63,7 +54,7 @@
         "condition": "条件",
         "condition_name": "SBI証券口座との連携",
         "limit_amount": null,
-        "note": "金利が通常より優遇"
+        "note": null
       }
     ]
   },
@@ -282,8 +273,8 @@
         "type": "通常",
         "rate_percent": 0.31,
         "product_name": "普通預金",
-        "condition": "６月以上１年未満",
-        "condition_name": "期間",
+        "condition": "期間",
+        "condition_name": "６月以上１年未満",
         "limit_amount": null,
         "note": null
       },
@@ -291,8 +282,8 @@
         "type": "通常",
         "rate_percent": 0.34,
         "product_name": "普通預金",
-        "condition": "１年以上１年６月未満",
-        "condition_name": "期間",
+        "condition": "期間",
+        "condition_name": "１年以上１年６月未満",
         "limit_amount": null,
         "note": null
       },
@@ -300,8 +291,8 @@
         "type": "通常",
         "rate_percent": 0.37,
         "product_name": "普通預金",
-        "condition": "１年６月以上２年未満",
-        "condition_name": "期間",
+        "condition": "期間",
+        "condition_name": "１年６月以上２年未満",
         "limit_amount": null,
         "note": null
       },
@@ -309,8 +300,8 @@
         "type": "通常",
         "rate_percent": 0.41,
         "product_name": "普通預金",
-        "condition": "２年以上２年６月未満",
-        "condition_name": "期間",
+        "condition": "期間",
+        "condition_name": "２年以上２年６月未満",
         "limit_amount": null,
         "note": null
       },
@@ -318,8 +309,8 @@
         "type": "通常",
         "rate_percent": 0.45,
         "product_name": "普通預金",
-        "condition": "２年６月以上３年未満",
-        "condition_name": "期間",
+        "condition": "期間",
+        "condition_name": "２年６月以上３年未満",
         "limit_amount": null,
         "note": null
       },
@@ -327,8 +318,8 @@
         "type": "通常",
         "rate_percent": 0.51,
         "product_name": "普通預金",
-        "condition": "３年以上",
-        "condition_name": "期間",
+        "condition": "期間",
+        "condition_name": "３年以上",
         "limit_amount": null,
         "note": null
       }
@@ -371,22 +362,6 @@
         "rate_percent": 0.32,
         "product_name": "普通預金",
         "condition": "楽天カードのカード利用金額の引落があるお客さま",
-        "condition_name": null,
-        "limit_amount": null,
-        "note": null
-      }
-    ]
-  },
-  {
-    "bank_id": "daiwa_next",
-    "bank_name": "大和ネクスト銀行",
-    "category": "ネット銀行",
-    "rates": [
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "円普通預金",
-        "condition": null,
         "condition_name": null,
         "limit_amount": null,
         "note": null
