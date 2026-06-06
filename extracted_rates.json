@@ -44,7 +44,7 @@
         "product_name": "普通預金",
         "condition": "預金残高100万円以下",
         "condition_name": "100万円上限",
-        "limit_amount": "100万円",
+        "limit_amount": "100万円以下",
         "note": null
       },
       {
@@ -53,34 +53,16 @@
         "product_name": "普通預金",
         "condition": "預金残高100万円超",
         "condition_name": null,
+        "limit_amount": "100万円超",
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "普通預金",
+        "condition": null,
+        "condition_name": null,
         "limit_amount": null,
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.7,
-        "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": "50万円以上300万円未満",
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.7,
-        "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": "300万円以上1,000万円未満",
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.7,
-        "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": "1,000万円以上",
         "note": null
       }
     ]
@@ -318,17 +300,26 @@
         "type": "優遇",
         "rate_percent": 0.38,
         "product_name": "普通預金",
-        "condition": "条件",
-        "condition_name": "マネーブリッジご利用者",
-        "limit_amount": "1円～10,000,000円",
+        "condition": "楽天証券口座連携 + 残高1円～10,000,000円",
+        "condition_name": "マネーブリッジ（300万円以下）",
+        "limit_amount": "残高300万円以下",
         "note": null
       },
       {
         "type": "優遇",
         "rate_percent": 0.32,
         "product_name": "普通預金",
-        "condition": "条件",
-        "condition_name": "楽天カードのカード利用金額の引落があるお客さま",
+        "condition": "楽天証券口座連携 + 残高300万円超",
+        "condition_name": "マネーブリッジ（300万円超）",
+        "limit_amount": "残高300万円超",
+        "note": null
+      },
+      {
+        "type": "優遇",
+        "rate_percent": 0.32,
+        "product_name": "普通預金",
+        "condition": "楽天カードのカード利用金額の引落があるお客さま",
+        "condition_name": null,
         "limit_amount": null,
         "note": null
       }
