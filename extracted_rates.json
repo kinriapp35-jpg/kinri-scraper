@@ -44,7 +44,16 @@
         "product_name": "円普通預金",
         "condition": null,
         "condition_name": null,
-        "limit_amount": null,
+        "limit_amount": "100万円未満",
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "円普通預金",
+        "condition": null,
+        "condition_name": null,
+        "limit_amount": "100万円以上",
         "note": null
       },
       {
@@ -54,7 +63,7 @@
         "condition": "条件",
         "condition_name": "SBI証券口座との連携",
         "limit_amount": null,
-        "note": null
+        "note": "金利が通常より優遇"
       }
     ]
   },
@@ -135,8 +144,8 @@
         "type": "通常",
         "rate_percent": 0.3,
         "product_name": "普通預金",
-        "condition": "条件",
-        "condition_name": "SBI証券口座保有",
+        "condition": null,
+        "condition_name": null,
         "limit_amount": null,
         "note": null
       }
