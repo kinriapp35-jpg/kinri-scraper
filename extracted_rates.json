@@ -34,6 +34,31 @@
     ]
   },
   {
+    "bank_id": "sumishin_sbi",
+    "bank_name": "住信SBIネット銀行",
+    "category": "ネット銀行",
+    "rates": [
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "円普通預金",
+        "condition": null,
+        "condition_name": null,
+        "limit_amount": null,
+        "note": null
+      },
+      {
+        "type": "優遇",
+        "rate_percent": 0.31,
+        "product_name": "SBIハイブリッド預金",
+        "condition": "条件",
+        "condition_name": "SBI証券口座との連携",
+        "limit_amount": null,
+        "note": null
+      }
+    ]
+  },
+  {
     "bank_id": "aozora",
     "bank_name": "あおぞら銀行BANK支店",
     "category": "ネット銀行",
@@ -83,8 +108,8 @@
         "type": "通常",
         "rate_percent": 0.3,
         "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
+        "condition": "条件",
+        "condition_name": "SBI証券口座保有",
         "limit_amount": null,
         "note": null
       }
@@ -221,8 +246,8 @@
         "type": "通常",
         "rate_percent": 0.31,
         "product_name": "普通預金",
-        "condition": "6月以上1年未満",
-        "condition_name": "期間",
+        "condition": "期間",
+        "condition_name": "６月以上１年未満",
         "limit_amount": null,
         "note": null
       },
@@ -230,8 +255,8 @@
         "type": "通常",
         "rate_percent": 0.34,
         "product_name": "普通預金",
-        "condition": "1年以上1年6月未満",
-        "condition_name": "期間",
+        "condition": "期間",
+        "condition_name": "１年以上１年６月未満",
         "limit_amount": null,
         "note": null
       },
@@ -239,8 +264,8 @@
         "type": "通常",
         "rate_percent": 0.37,
         "product_name": "普通預金",
-        "condition": "1年6月以上2年未満",
-        "condition_name": "期間",
+        "condition": "期間",
+        "condition_name": "１年６月以上２年未満",
         "limit_amount": null,
         "note": null
       },
@@ -248,8 +273,8 @@
         "type": "通常",
         "rate_percent": 0.41,
         "product_name": "普通預金",
-        "condition": "2年以上2年6月未満",
-        "condition_name": "期間",
+        "condition": "期間",
+        "condition_name": "２年以上２年６月未満",
         "limit_amount": null,
         "note": null
       },
@@ -257,8 +282,8 @@
         "type": "通常",
         "rate_percent": 0.45,
         "product_name": "普通預金",
-        "condition": "2年6月以上3年未満",
-        "condition_name": "期間",
+        "condition": "期間",
+        "condition_name": "２年６月以上３年未満",
         "limit_amount": null,
         "note": null
       },
@@ -266,67 +291,8 @@
         "type": "通常",
         "rate_percent": 0.51,
         "product_name": "普通預金",
-        "condition": "3年以上",
-        "condition_name": "期間",
-        "limit_amount": null,
-        "note": null
-      }
-    ]
-  },
-  {
-    "bank_id": "sbi_sec_rakuten",
-    "bank_name": "楽天証券×楽天銀行",
-    "category": "証券連携",
-    "rates": [
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": null,
-        "note": null
-      },
-      {
-        "type": "優遇",
-        "rate_percent": 0.38,
-        "product_name": "普通預金",
-        "condition": "楽天証券口座連携 + 残高1円～10,000,000円",
-        "condition_name": "マネーブリッジ（300万円以下）",
-        "limit_amount": "残高300万円以下",
-        "note": null
-      },
-      {
-        "type": "優遇",
-        "rate_percent": 0.32,
-        "product_name": "普通預金",
-        "condition": "楽天証券口座連携 + 残高300万円超",
-        "condition_name": "マネーブリッジ（300万円超）",
-        "limit_amount": "残高300万円超",
-        "note": null
-      },
-      {
-        "type": "優遇",
-        "rate_percent": 0.32,
-        "product_name": "普通預金",
-        "condition": "楽天カードのカード利用金額の引落があるお客さま",
-        "condition_name": null,
-        "limit_amount": null,
-        "note": null
-      }
-    ]
-  },
-  {
-    "bank_id": "daiwa_next",
-    "bank_name": "大和ネクスト銀行",
-    "category": "ネット銀行",
-    "rates": [
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "円普通預金",
-        "condition": null,
-        "condition_name": null,
+        "condition": "期間",
+        "condition_name": "３年以上",
         "limit_amount": null,
         "note": null
       }
