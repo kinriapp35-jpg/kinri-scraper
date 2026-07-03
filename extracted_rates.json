@@ -34,6 +34,40 @@
     ]
   },
   {
+    "bank_id": "sumishin_sbi",
+    "bank_name": "住信SBIネット銀行",
+    "category": "ネット銀行",
+    "rates": [
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "円普通預金",
+        "condition": null,
+        "condition_name": null,
+        "limit_amount": "100万円未満",
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.3,
+        "product_name": "円普通預金",
+        "condition": null,
+        "condition_name": null,
+        "limit_amount": "100万円以上",
+        "note": null
+      },
+      {
+        "type": "優遇",
+        "rate_percent": 0.31,
+        "product_name": "SBIハイブリッド預金",
+        "condition": "条件",
+        "condition_name": "SBI証券口座との連携",
+        "limit_amount": null,
+        "note": "金利が通常より優遇"
+      }
+    ]
+  },
+  {
     "bank_id": "aozora",
     "bank_name": "あおぞら銀行BANK支店",
     "category": "ネット銀行",
@@ -221,7 +255,7 @@
         "type": "通常",
         "rate_percent": 0.31,
         "product_name": "普通預金",
-        "condition": "6月以上1年未満",
+        "condition": "６月以上１年未満",
         "condition_name": "期間",
         "limit_amount": null,
         "note": null
@@ -230,7 +264,7 @@
         "type": "通常",
         "rate_percent": 0.34,
         "product_name": "普通預金",
-        "condition": "1年以上1年6月未満",
+        "condition": "１年以上１年６月未満",
         "condition_name": "期間",
         "limit_amount": null,
         "note": null
@@ -239,7 +273,7 @@
         "type": "通常",
         "rate_percent": 0.37,
         "product_name": "普通預金",
-        "condition": "1年6月以上2年未満",
+        "condition": "１年６月以上２年未満",
         "condition_name": "期間",
         "limit_amount": null,
         "note": null
@@ -248,7 +282,7 @@
         "type": "通常",
         "rate_percent": 0.41,
         "product_name": "普通預金",
-        "condition": "2年以上2年6月未満",
+        "condition": "２年以上２年６月未満",
         "condition_name": "期間",
         "limit_amount": null,
         "note": null
@@ -257,7 +291,7 @@
         "type": "通常",
         "rate_percent": 0.45,
         "product_name": "普通預金",
-        "condition": "2年6月以上3年未満",
+        "condition": "２年６月以上３年未満",
         "condition_name": "期間",
         "limit_amount": null,
         "note": null
@@ -266,7 +300,43 @@
         "type": "通常",
         "rate_percent": 0.51,
         "product_name": "普通預金",
-        "condition": "3年以上",
+        "condition": "３年以上",
+        "condition_name": "期間",
+        "limit_amount": null,
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.75,
+        "product_name": "普通預金",
+        "condition": "6年（6年以上7年未満）",
+        "condition_name": "期間",
+        "limit_amount": null,
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.8,
+        "product_name": "普通預金",
+        "condition": "7年（7年以上8年未満）",
+        "condition_name": "期間",
+        "limit_amount": null,
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.8,
+        "product_name": "普通預金",
+        "condition": "8年（8年以上9年未満）",
+        "condition_name": "期間",
+        "limit_amount": null,
+        "note": null
+      },
+      {
+        "type": "通常",
+        "rate_percent": 0.8,
+        "product_name": "普通預金",
+        "condition": "9年（9年以上10年未満）",
         "condition_name": "期間",
         "limit_amount": null,
         "note": null
