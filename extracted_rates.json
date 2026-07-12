@@ -270,42 +270,6 @@
         "condition_name": "３年以上",
         "limit_amount": null,
         "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.75,
-        "product_name": "普通預金",
-        "condition": "期間",
-        "condition_name": "6年（6年以上7年未満）",
-        "limit_amount": null,
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.8,
-        "product_name": "普通預金",
-        "condition": "期間",
-        "condition_name": "7年（7年以上8年未満）",
-        "limit_amount": null,
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.8,
-        "product_name": "普通預金",
-        "condition": "期間",
-        "condition_name": "8年（8年以上9年未満）",
-        "limit_amount": null,
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.8,
-        "product_name": "普通預金",
-        "condition": "期間",
-        "condition_name": "9年（9年以上10年未満）",
-        "limit_amount": null,
-        "note": null
       }
     ]
   },
@@ -329,7 +293,7 @@
         "product_name": "普通預金",
         "condition": "楽天証券口座連携 + 残高1円～10,000,000円",
         "condition_name": "マネーブリッジ（300万円以下）",
-        "limit_amount": "300万円以下",
+        "limit_amount": "残高300万円以下",
         "note": null
       },
       {
@@ -338,7 +302,7 @@
         "product_name": "普通預金",
         "condition": "楽天証券口座連携 + 残高300万円超",
         "condition_name": "マネーブリッジ（300万円超）",
-        "limit_amount": "300万円超",
+        "limit_amount": "残高300万円超",
         "note": null
       },
       {
