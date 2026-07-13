@@ -83,8 +83,8 @@
         "type": "通常",
         "rate_percent": 0.3,
         "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
+        "condition": "条件",
+        "condition_name": "SBI証券口座保有",
         "limit_amount": null,
         "note": null
       }
@@ -171,7 +171,7 @@
         "product_name": "残高別金利型普通預金",
         "condition": null,
         "condition_name": null,
-        "limit_amount": "30万円未満",
+        "limit_amount": "1,000万円以上",
         "note": null
       },
       {
@@ -189,7 +189,7 @@
         "product_name": "残高別金利型普通預金",
         "condition": null,
         "condition_name": null,
-        "limit_amount": "1,000万円以上",
+        "limit_amount": "30万円未満",
         "note": null
       }
     ]
