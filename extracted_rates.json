@@ -34,47 +34,6 @@
     ]
   },
   {
-    "bank_id": "aozora",
-    "bank_name": "あおぞら銀行BANK支店",
-    "category": "ネット銀行",
-    "rates": [
-      {
-        "type": "通常",
-        "rate_percent": 1.0,
-        "product_name": "普通預金",
-        "condition": "預金残高100万円以下",
-        "condition_name": "100万円上限",
-        "limit_amount": "100万円以下",
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.65,
-        "product_name": "普通預金",
-        "condition": "預金残高100万円超",
-        "condition_name": null,
-        "limit_amount": "100万円超",
-        "note": null
-      }
-    ]
-  },
-  {
-    "bank_id": "aeon",
-    "bank_name": "イオン銀行",
-    "category": "ネット銀行",
-    "rates": [
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": null,
-        "note": null
-      }
-    ]
-  },
-  {
     "bank_id": "sbi_sumishin",
     "bank_name": "SBI証券×住信SBI（ハイブリッド）",
     "category": "証券連携",
@@ -83,8 +42,8 @@
         "type": "通常",
         "rate_percent": 0.3,
         "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
+        "condition": "条件",
+        "condition_name": "SBI証券口座保有",
         "limit_amount": null,
         "note": null
       }
@@ -101,61 +60,7 @@
         "product_name": "普通預金",
         "condition": null,
         "condition_name": null,
-        "limit_amount": "10万円未満",
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": "10万円以上",
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": "30万円以上",
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": "50万円以上",
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": "100万円以上",
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": "300万円以上",
-        "note": null
-      },
-      {
-        "type": "通常",
-        "rate_percent": 0.3,
-        "product_name": "普通預金",
-        "condition": null,
-        "condition_name": null,
-        "limit_amount": "1,000万円以上",
+        "limit_amount": null,
         "note": null
       }
     ]
@@ -171,7 +76,7 @@
         "product_name": "残高別金利型普通預金",
         "condition": null,
         "condition_name": null,
-        "limit_amount": "1,000万円以上",
+        "limit_amount": "30万円未満",
         "note": null
       },
       {
@@ -189,7 +94,7 @@
         "product_name": "残高別金利型普通預金",
         "condition": null,
         "condition_name": null,
-        "limit_amount": "30万円未満",
+        "limit_amount": "1,000万円以上",
         "note": null
       }
     ]
